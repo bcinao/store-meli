@@ -1,0 +1,9 @@
+<div class="flex py-3">
+  <span>
+    <a class="underline" [routerLink]="'/'">Home</a>
+  </span>
+  <ng-container *ngFor="let part of data; let last = last">
+    <span>&nbsp;>&nbsp;</span>
+    <span [ngClass]="{ 'underline cursor-pointer': !last}" ><a>{{ part }}</a></span>
+  </ng-container>
+</div>

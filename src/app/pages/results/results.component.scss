@@ -1,0 +1,23 @@
+:host {
+  ul {
+    background-color: #ffffff;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 20%);
+
+    li {
+      border-bottom: thin solid #eee;
+
+      img {
+        width: 160px;
+        height: 160px;
+      }
+
+      .free_shipping {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        display: inline-block;
+        background-color: forestgreen;
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+:host {
+  .detail {
+    background-color: #ffffff;
+
+    .btn-primary {
+      background-color: #3483fa;
+      border-color: transparent;
+      padding: 0.5rem 2rem;
+      border-radius: 2px;
+      color: #ffffff;
+      width: 100%;
+
+      &:hover {
+        background-color: #5998f7;
+      }
+    }
+  }
+}

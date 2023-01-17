@@ -1,0 +1,12 @@
+<form [formGroup]="form" (submit)="submit()">
+  <div class="search flex items-center">
+    <input
+      class="h-10 w-full px-3"
+      placeholder="Nunca dejes de buscar"
+      [formControlName]="'term'"
+    />
+    <button class="h-10 px-3">
+      <img src="../../../../assets/icons/search.svg" />
+    </button>
+  </div>
+</form>
